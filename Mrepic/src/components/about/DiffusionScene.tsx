@@ -289,6 +289,8 @@ function FloatingNode({ data, onSelect, isSelected, index, theme, totalNodes, ca
         education: { radius: 6, yBase: 0, speed: 0.12 },
         hobby: { radius: 8, yBase: 1, speed: 0.08 },
         favorite: { radius: 10, yBase: -0.5, speed: 0.06 },
+        skill: { radius: 7, yBase: 0.5, speed: 0.1 },
+        career: { radius: 9, yBase: -1, speed: 0.07 },
     };
     
     const settings = categoryOffsets[category];
