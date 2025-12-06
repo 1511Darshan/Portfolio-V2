@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "ireddragonicy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.4.0",
+    "@sparticuz/chromium": "^141.0.0",
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/three": "^0.181.0",
+    "@vercel/analytics": "^1.5.0",
+    "framer-motion": "^12.23.24",
+    "gray-matter": "^4.0.3",
+    "gsap": "^3.13.0",
+    "lucide-react": "^0.554.0",
+    "next": "16.0.3",
+    "next-mdx-remote": "^5.0.0",
+    "puppeteer-core": "^24.31.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-icons": "^5.5.0",
+    "react-intersection-observer": "^10.0.0",
+    "react-markdown": "^10.1.0",
+    "rehype-highlight": "^7.0.2",
+    "rehype-slug": "^6.0.0",
+    "remark-gfm": "^4.0.1",
+    "three": "^0.181.2",
+    "three-instanced-uniforms-mesh": "^0.52.4",
+    "three-stdlib": "^2.36.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
+    "baseline-browser-mapping": "^2.8.32",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "16.0.3",
+    "puppeteer": "^24.31.0",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
+  }
+}
